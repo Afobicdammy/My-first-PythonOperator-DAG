@@ -11,7 +11,7 @@ As always, you can go the docker, cloud route, or if you are like me who is not 
 ```bash
 mkdir airflow_projects && cd airflow_projects
 ```
-**Step 2: Set up and activate a virtual environment**
+- **Step 2: Set up and activate a virtual environment**
 I personally find this to be useful. I have multiple projects I am working on so just setting up a virtual evnvironment for some projects are helpful. For example I currently run python 3.12.4 for my other projects but its not supported by Apache Aiflow yet, so setting up the venv and installing a compatible python (3.11.9) on it took the headache away.
 
 ```bash
@@ -19,7 +19,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-**Step 3: Install Airflow and dependencies**
+- **Step 3: Install Airflow and dependencies**
 
 Use Airflow’s official installation method:
 ```bash
@@ -36,12 +36,12 @@ you will need to get a python version that is supported.
 
 Now that you have successfully installed Apache Airflow, let initialize and set it up.
 
-**Step 1: Initialize the database**
+- **Step 1: Initialize the database**
 ```bash
 airflow db init
 ```
 
-**Step 2: Create a user**
+- **Step 2: Create a user**
 
 ```bash
 airflow users create \
@@ -52,7 +52,7 @@ airflow users create \
     --email admin@example.com \
     --password admin
 ```
-**Step 3: Start the webserver**
+- **Step 3: Start the webserver**
 ```bash
 airflow webserver --port 8080
 ```
@@ -60,7 +60,7 @@ In a new terminal tab (keep the webserver running), start the scheduler:
 ```bash
 airflow scheduler
 ```
-**Step 4: Access Apache Airflow**
+- **Step 4: Access Apache Airflow**
 Now open your browser and visit:
 
 ```html
@@ -73,13 +73,13 @@ Log in with the admin / admin credentials you just set up.
 - TBD
 
 #### Submitting your DAG
-- Find the DAG folder. This is on your machine when you installed Airflow.
+- **Step 1: Find the DAG folder. This is on your machine when you installed Airflow.**
   ```bash
   echo $AIRFLOW_HOME
-- Copy your DAG file to the Dag folder.
+- **Step 2: Copy your DAG file to the Dag folder.**
   ```bash
   cp /path/to/your/my_first_dag.py ~/airflow/dags/
-- Refresh your Airflow UI and your DAG should be there. The name will be the name you used when you defined dag in your script.
+- **Step 3: Refresh your Airflow UI and your DAG should be there. The name will be the name you used when you defined dag in your script.**
 - 
 - Pictures 
 - <img width="1106" alt="Screenshot 2025-04-26 at 10 03 06 PM" src="https://github.com/user-attachments/assets/e1022119-f121-4e81-962a-3ef98eda9160" />
