@@ -4,7 +4,21 @@
 On my wonderful journey of understanding Data engineering, I have learnt how how to create python etl scripts that can extract data from multiple such as Databases, Web, files, APIs e.t.c. Thats was the foundation and a very useful knowledge, but as the complexity of the tasks increases the etl process becomes more complicated. Think about a batch process where you have to extract data from an OLTP to an OLAP server, can you imagine running your etl script everytime you need to process a batch? Maybe you are thinking oh! you can just **cron-ify** the script! Remember that cron is just a timebased job launcher but Airflow is a job orchestrator. Not only do you have control over when to run your jobs, but how you want to run them.
 
 #### Installing Apache Airflow locally
-- TBD
+As always, you can go the cloud route, or if you are like me who is not ready for cloud expenses, you can install Apache Airflow locally on your computer. These are the steps I used. It might not work directly for you but like I always say **you have to figure it out!**
+
+
+- **Step 1: Create a project directory**
+```bash```
+mkdir airflow_projects && cd airflow_projects
+
+- 
+
+
+
+
+
+
+
 
 #### Starting Apache Webserver and Scheduler
 - TBD
