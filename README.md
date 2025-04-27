@@ -21,3 +21,6 @@ On my wonderful journey of understanding Data engineering, I have learnt how how
   cp /path/to/your/my_first_dag.py ~/airflow/dags/
 - Refresh your Airflow UI and your DAG should be there. The name will be the name you used when you defined dag in your script.
 - Pictures TBD
+- <img width="1106" alt="Screenshot 2025-04-26 at 10 03 06 PM" src="https://github.com/user-attachments/assets/e1022119-f121-4e81-962a-3ef98eda9160" />
+<img width="1435" alt="Screenshot 2025-04-26 at 10 03 43 PM" src="https://github.com/user-attachments/assets/25e1a091-86b8-482d-a052-3b479930a09c" />
+<img width="1435" alt="Screenshot 2025-04-26 at 10 04 18 PM" src="https://github.com/user-attachments/assets/391eb006-5e8e-4696-99db-e4a50a4eb1bc" />
