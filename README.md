@@ -14,9 +14,11 @@ On my wonderful journey of understanding Data engineering, I have learnt how how
 
 #### Submitting your DAG
 - Find the DAG folder. This is on your machine when you installed Airflow.
-  ```bash echo $AIRFLOW_HOME```
+  ```bash
+  echo $AIRFLOW_HOME
 - Copy your DAG file to the Dag folder.
-  ```bash cp /path/to/your/my_first_dag.py ~/airflow/dags/```
+  ```bash
+  cp /path/to/your/my_first_dag.py ~/airflow/dags/
 - Refresh your Airflow UI and your DAG should be there. The name will be the name you used when you defined dag in your script.
 - 
 - Pictures 
